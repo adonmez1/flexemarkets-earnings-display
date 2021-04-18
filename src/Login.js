@@ -34,7 +34,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>Flex E-Market Experiment</h2>
+        <h2>Flex E-Market Experiment 💰</h2>
         <form
           onSubmit={handleSubmit(submit)}
           style={{ display: "flex", flexDirection: "column" }}
