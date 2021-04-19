@@ -141,7 +141,7 @@ function App() {
         {holdings ? (
           holdings.length ? (
             <div style={{ padding: 5 }}>
-              <p>Holdings:</p>
+              <p>Hit below to see your profit in the current round</p>
               <ul>
                 {holdings.map((holding) => {
                   const cashDifference = Math.abs(
@@ -161,7 +161,7 @@ function App() {
               </ul>
             </div>
           ) : (
-            <div>There's no holding</div>
+            <div>Marketplace has not opened yet</div>
           )
         ) : null}
         {isMoveNext > 4 ? <div>Move to next market </div> : null}
